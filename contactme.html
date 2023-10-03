@@ -11,7 +11,7 @@
     <form action="#" method="post" id="contactform"
 style="text-align:center;" onsubmit="alert( 'not implemented yet');">
 <div id="fdiv">
-
+<label for="myname">Name: <span> class="humans" </span></label>
 <label for ="myname">Name: </label> <br/>
 <input type="text" name="myname" id="myname" required>  <br/><br/>
 
@@ -32,7 +32,18 @@ style="text-align:center;" onsubmit="alert( 'not implemented yet');">
 <option value="crit">Critical</option>
 </select> <br/><br/> 
 
-<!--TODO: file and radio-->
+<lable for="attach">attachments: </lable> <br/>
+<input type="file" name="attach" id="attach"> <br/><br/>
+
+<label for="flwup">Do you want a follow up email?</label> <br/>
+<input type="radio" name="flwup" id="flwup" value="yes" />
+<label for="flwup" class="flwup" yes label>
+<input type="radio" name="flwup" id="flwup" value="no" input>
+<label for="flwup" class="humans">No</label> <br/><br/>
+
+<input type="hidden" id=""
+
+
 <input type="submit" value="submit" id="sbutton"/>
 </div>
 </form>
