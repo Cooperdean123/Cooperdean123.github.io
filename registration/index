@@ -8,49 +8,67 @@
         h1, h2 , h3, label
 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 
-div p 
-{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+hr
+{ color: white ;}
 
-}
+div p 
+{color: blue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,}
+
+div h1 
+{background-color: yellowgreen; background-size: 10%; color: white; border-radius: 50%; border-style: initial;}
+
 
 
 
     </style>
     <body>
-       <h1>Sign Up</h1>
-       <h3>Its free, and always will be.</h3>
+       <h1><center>Sign Up</center></h1>
+       <h3><center>Its free, and always will be.</center></h3>
 
-       <label for="Fname">First Name:</label>
-<input type="Fname" name="Fname" id="Fname">
+      <ul> <li> <label for="Fname">First Name:</label>
+<input type="Fname" name="Fname" id="Fname"> </li>
 
 <label for="Lname">Last Name:</label>
 <input type="Lname" name="Lname" id="Lname">
 
 <hr/>
 
-<label for="email">Your Email:</label>
-<input  type="email" name="Email" id="Email">
+<li><label for="email">Your Email:</label>
+<input  type="email" name="Email" id="Email"></li>
 
 <hr/>
-<label for="email">Confirm Email:</label>
-<input  type="email" name="Email" id="Email">
+<li><label for="email">Confirm Email:</label>
+<input  type="email" name="Email" id="Email"></li>
 
 <hr/>
 
-<label for="Password">Password:</label>
-<input  type="password" name="Password" id="Password">
+<li><label for="Password">Password:</label>
+<input  type="password" name="Password" id="Password"></li>
 
 <hr/>
  
-<h3>
+<li><h3>
 Your Birthdate
-</h3>
+</h3></li>
 
 <hr/>
+<li><label for="date">Birthdate</label>
+<input  type="date" name="date" id="date"></li>  <div> <p>Why do i need to enter my birthday? </p></div>
 
-<label for="Birthdate">month</label>
-<input  type="month" name="month" id="month"> <div> <p>Why do i need to enter my birthday? </p></div>
+<label for="">Birthdate</label>
+<input  type="date" name="date" id="date">
 
+<label for="flwup"></label> <br/>
+<input type="radio" name="flwup" id="flwup" value="yes" />
+<label for="flwup" class="flwup">Female</label>
+<input type="radio" name="flwup" id="flwup" value="no" input>
+<label for="flwup" class="humans">Male</label> <br/><br/>
+
+<li> <div> <p> By Clicking sign up, you agree to our terms and have read our data use policy, including cookie use.</p></div></li>
+
+<li><div><h1><center>Sign Up</center></h1></div></li>
+
+</ul>
 
 
     </body>
