@@ -3,12 +3,55 @@
     <head>
         <title>Registration</title>
     </head>
+    <link src="css/styles.css" rel="stylesheet" type="text/css">
+    <style>
+        h1, h2 , h3, label
+{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+div p 
+{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+
+    </style>
     <body>
        <h1>Sign Up</h1>
        <h3>Its free, and always will be.</h3>
 
-       <label for="Username">First Name:</label>
-<input type="text" name="Username" id="Userame">
+       <label for="Fname">First Name:</label>
+<input type="Fname" name="Fname" id="Fname">
+
+<label for="Lname">Last Name:</label>
+<input type="Lname" name="Lname" id="Lname">
+
+<hr/>
+
+<label for="email">Your Email:</label>
+<input  type="email" name="Email" id="Email">
+
+<hr/>
+<label for="email">Confirm Email:</label>
+<input  type="email" name="Email" id="Email">
+
+<hr/>
+
+<label for="Password">Password:</label>
+<input  type="password" name="Password" id="Password">
+
+<hr/>
+ 
+<h3>
+Your Birthdate
+</h3>
+
+<hr/>
+
+<label for="Birthdate">month</label>
+<input  type="month" name="month" id="month"> <div> <p>Why do i need to enter my birthday? </p></div>
+
+
 
     </body>
 </html>
